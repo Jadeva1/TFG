@@ -4,11 +4,11 @@ En este repositorio se encuentran los principales scripts que he usado para mi T
 
 Ha sido un trabajo de muchos meses y esta es una seleción de los códigos y archivos que se pueden calificar como finales, y que permiten reproducir los resultados que he obtenido en mi trabajo.
 
-El código en principio no se pensó para ser lanzado en un ordenador que no fuera el mio así que hay muchos directorios que están puestos directamente con el path que a mi me convenía
+El código en principio no se pensó para ser lanzado en un ordenador que no fuera el mio así que hay variables al comienzo de algunas funciones con directorios que están puestos directamente con el path que a mi me convenía
 en el momento y que habrá que cambiar si alguien quiere reproducirlos en su ordenador.
 
 --------Breve descripción de que hace cada archivo------
--
+- archivos.fits -> Son los resultados del ajuste con pPXF, se utilizan en el resto de archivos como información
 - mapas.py -> Extrae la información de los archivos .fits resultantes de hacer el ajuste con pPXF y plotea los mapas para poder compararlos con los de MEGADES
 - ajuste_nube.py -> Es el script encargado del complejo H alfa y [N II], absolutamente todo lo que se obtiene a partir de estas líneas en mi trabajo, mapas de velocidades,
 dispersiones, flojos, SNR, nacen aquí. También carga toda esta información en ficheros .fits para poder usarla en otros sripts.
